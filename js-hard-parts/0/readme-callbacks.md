@@ -113,12 +113,8 @@ Create a function `highestFunc` that accepts an object (which will contain funct
 
 ### Challenge 22
 
-Create a function, `combineOperations`, that takes two parameters: a starting value and an array of functions. `combineOperations` should pass the starting value into the first function in the array. `combineOperations` should pass the value returned by the first function into the second function, and so on until every function in the array has been called. `combineOperations` should return the final value returned by the last function in the array.
-
-### Challenge 23
-
 Define a function `myFunc` that takes an array and a callback. `myFunc` should pass each element from the array (in order) into the callback. If the callback returns true, `myFunc` should return the index of the current element. If the callback never returns true, `myFunc` should return -1;
 
-### Challenge 24
+### Challenge 23
 
 Write a function `myForEach` that accepts an array and a callback function. Your function should pass each element of the array (in order) into the callback function. The behavior of this function should mirror the functionality of the native `.forEach()` JavaScript array method as closely as possible.
