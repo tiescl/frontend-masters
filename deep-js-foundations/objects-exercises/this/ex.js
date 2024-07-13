@@ -73,14 +73,14 @@ var deepJS = {
 };
 
 deepJS.addStudent(311, 'Frank', true);
-deepJS.addStudent(410, 'Suzy', /*paid=*/ true);
-deepJS.addStudent(709, 'Brian', /*paid=*/ false);
-deepJS.addStudent(105, 'Henry', /*paid=*/ false);
-deepJS.addStudent(502, 'Mary', /*paid=*/ true);
-deepJS.addStudent(664, 'Bob', /*paid=*/ false);
-deepJS.addStudent(250, 'Peter', /*paid=*/ true);
-deepJS.addStudent(375, 'Sarah', /*paid=*/ true);
-deepJS.addStudent(867, 'Greg', /*paid=*/ false);
+deepJS.addStudent(410, 'Suzy', true);
+deepJS.addStudent(709, 'Brian', false);
+deepJS.addStudent(105, 'Henry', false);
+deepJS.addStudent(502, 'Mary', true);
+deepJS.addStudent(664, 'Bob', false);
+deepJS.addStudent(250, 'Peter', true);
+deepJS.addStudent(375, 'Sarah', true);
+deepJS.addStudent(867, 'Greg', false);
 
 deepJS.enrollStudent(410);
 deepJS.enrollStudent(105);
