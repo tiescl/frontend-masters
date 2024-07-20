@@ -1,0 +1,42 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "plugins": ["react", "react-hooks", "import"],
+  "rules": {
+    // eslint won't throw an error
+    // if prop types aren't defined
+    "react/prop-types": 0,
+    // and if react isn't imported
+    "react/react-in-jsx-scope": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      // This tells node.js import resolver to consider
+      // files with the extensions .js and .jsx
+      // as valid modules when resolving import statements.
+      "node": {
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  }
+}
